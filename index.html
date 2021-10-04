@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avenue Fashion Main Page</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/cd42d94daf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="subheader">
+            <div class="lil-container">
+                <div class="currency">
+                    <span>Currency :</span>
+                    <select name="currency" id="">
+                        <option value="GBP">GBP</option>
+                        <option value="USD">USD</option>
+                        <option value="UAH">UAH</option>
+                    </select>
+                </div>
+                
+                <div class="subhead-links">
+                    <a href="#">
+                        <i class="fas fa-user-plus"></i>
+                        <span>Register</span>
+                    </a>
+                    <a href="sign-in.html">
+                        <i class="fas fa-house-user"></i>
+                        <span>Sign in</span>
+                    </a>
+                    <button class="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-total">empty</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-header main-page">
+            <div class="container">
+                <div class="logo"><span>Avenue</span> Fashion</div>
+
+                <div class="search-n-menu">
+
+                <form action="" class="search">
+                    <input type="search" placeholder="Search..">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+
+                <div class="burger-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+                
+                <nav>
+                    <ul class="main-categories">
+                        <li class="with-submenu"><a href="#">Mens</a>
+                            <ul class="subcategory-list">
+                                <li>Casuals
+                                    <ul class="sub-subcategory-list">
+                                        <li><a href="#">Jackets</a></li>
+                                        <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                        <li><a href="#">Polo Shirts</a></li>
+                                        <li><a href="#">Sportswear</a></li>
+                                        <li><a href="#">Trousers & Chinos</a></li>
+                                        <li><a href="#">T-Shirts</a></li>
+                                    </ul>
+                                </li>
+
+                                <li>Formal
+                                    <ul class="sub-subcategory-list">
+                                        <li><a href="#">Jackets</a></li>
+                                        <li><a href="#">Shirts</a></li>
+                                        <li><a href="#">Suits</a></li>
+                                        <li><a href="#">Trousers</a></li>
+                                    </ul>
+                                </li>
+
+                                <div class="sale-sub-banner"><span>Autumn sale!</span><br>up to 50% off</div>
+                            </ul>
+                        </li>
+                        <li class="with-submenu"><a href="#">Womens</a></li>
+                        <li><a href="#">The brand</a></li>
+                        <li class="with-submenu"><a href="#">Local Stores</a></li>
+                        <li class="with-submenu"><a href="#">Look Book</a></li>
+                    </ul>
+                </nav>
+                </div>
+                
+            </div>
+
+            <div class="banner-brand">a v e</div>
+            <a href="#" class="banner-btn">shop men’s collection</a>
+            
+        </div>
+    </header>
+
+    <main>
+                <div class="featured-block container">
+            <div class="decor"></div>
+
+            <!-- select for mobile pages -->
+            <select class="featured-select">
+                <option value="Popular">Popular</option>
+                <option value="New arrivals">New arrivals</option>
+                <option value="Best sellers">Best sellers</option>
+                <option value="Special offers">Special offers</option>
+                <option value="Comming soon">Comming soon</option>
+            </select>
+
+            <!-- tabs for desctop pages -->
+            <div class="feature-tab">
+                <button class="tablinks active" onclick="#">Popular</button>
+                <button class="tablinks" onclick="#">New arrivals</button>
+                <button class="tablinks" onclick="#">Best sellers</button>
+                <button class="tablinks" onclick="#">Special offers</button>
+                <button class="tablinks" onclick="#">Comming soon</button>
+            </div>
+
+            <!-- content -->
+            <div class="featured-items">
+                <div class="items-clmn">
+                    <div class="two-items-inline">
+                        <div class="single-item">
+                            <a href="#"><img src="img/item1.png" alt=""></a>
+                            <div class="price"><sup>£</sup>19.95</div>
+
+                            <div class="extra-photos">
+                                <img src="img/item1.png" alt="front" class="front">
+                                <img src="img/item1.png" alt="back" class="back">
+                            </div>
+
+                            <div class="item-info">
+                                <h6 class="item-name">Some item casual tee</h6>
+                                <span class="item-price"><sup>£</sup>19.95</span>
+                                <p class="item-descripton">Some description of classic casual t-shirt.  100% cotton.</p>
+
+                                <div class="item-menu">
+                                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                                    <a href=""><i class="far fa-heart"></i></a>
+                                    <a href=""><i class="fas fa-compress-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="single-item">
+                            <a href="#"><img src="img/item2.png" alt=""></a>
+                            <div class="price"><sup>£</sup>44.95</div>
+
+                            <div class="extra-photos">
+                                <img src="img/item2.png" alt="front" class="front">
+                                <img src="img/item2.png" alt="back" class="back">
+                            </div>
+
+                            <div class="item-info">
+                                <h6 class="item-name">Womens burnt orange casual tee</h6>
+                                <span class="item-price"><sup>£</sup>44.95</span>
+                                <p class="item-descripton">Some description of classic casual t-shirt.  100% cotton</p>
+
+                                <div class="item-menu">
+                                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                                    <a href=""><i class="far fa-heart"></i></a>
+                                    <a href=""><i class="fas fa-compress-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-item">
+                        <a href="#"><img src="img/item3.png" alt=""></a>
+                        <div class="price"><sup>£</sup>99.95</div>
+
+                        <div class="extra-photos">
+                            <img src="img/item3.png" alt="front" class="front">
+                            <img src="img/item3.png" alt="back" class="back">
+                        </div>
+
+                        <div class="item-info">
+                            <h6 class="item-name">Womens burnt orange casual tee</h6>
+                            <span class="item-price"><sup>£</sup>99.95</span>
+                            <p class="item-descripton">Classic casual t-shirt for women on the move.  100% cotton.</p>
+
+                            <div class="item-menu">
+                                <a href=""><i class="fas fa-shopping-cart"></i></a>
+                                <a href=""><i class="far fa-heart"></i></a>
+                                <a href=""><i class="fas fa-compress-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="items-clmn">
+                    <div class="single-item">
+                        <a href="#"><img src="img/item4.png" alt=""></a>
+                        <div class="price"><sup>£</sup>32.95</div>
+
+                        <div class="extra-photos">
+                            <img src="img/item4.png" alt="front" class="front">
+                            <img src="img/item4.png" alt="back" class="back">
+                        </div>
+
+                        <div class="item-info">
+                            <h6 class="item-name">Womens burnt orange casual tee</h6>
+                            <span class="item-price"><sup>£</sup>29.95</span>
+                            <p class="item-descripton">Some description of classic casual t-shirt.  100% cotton.</p>
+
+                            <div class="item-menu">
+                                <a href=""><i class="fas fa-shopping-cart"></i></a>
+                                <a href=""><i class="far fa-heart"></i></a>
+                                <a href=""><i class="fas fa-compress-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="two-items-inline">
+
+                        <div class="single-item">
+                            <a href="#"><img src="img/item5.png" alt=""></a>
+                            <div class="price"><sup>£</sup>29.95</div>
+
+                            <div class="extra-photos">
+                                <img src="img/lil-item5.png" alt="front" class="front">
+                                <img src="img/lil-item5-back.png" alt="back" class="back">
+                            </div>
+
+                            <div class="item-info">
+                                <h6 class="item-name">Womens burnt orange casual tee</h6>
+                                <span class="item-price"><sup>£</sup>29.95</span>
+                                <p class="item-descripton">Classic casual t-shirt for women on the move.  100% cotton.</p>
+
+                                <div class="item-menu">
+                                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                                    <a href=""><i class="far fa-heart"></i></a>
+                                    <a href=""><i class="fas fa-compress-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="single-item">
+                            <a href="#"><img src="img/item6.png" alt=""></a>
+                            <div class="price"><sup>£</sup>29.95</div>
+
+                            <div class="extra-photos">
+                                <img src="img/item6.png" alt="front" class="front">
+                                <img src="img/item6.png" alt="back" class="back">
+                            </div>
+
+                            <div class="item-info">
+                                <h6 class="item-name">Womens burnt orange casual tee</h6>
+                                <span class="item-price"><sup>£</sup>29.95</span>
+                                <p class="item-descripton">Some description of classic casual t-shirt.  100% cotton.</p>
+
+                                <div class="item-menu">
+                                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                                    <a href=""><i class="far fa-heart"></i></a>
+                                    <a href=""><i class="fas fa-compress-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="decor"></div>
+        </div>
+
+        <div class="lookbook-block">
+            
+            <div class="single-lb">
+                <img src="img/men.png" alt="men lookbook">
+
+                <div class="inner-text">
+                    <h4><span>Men's</span> lookbook</h4>
+
+                    <div class="lb-description">
+                        <p>Lorem ipsum dolor sit amet eras facilisis
+                            consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.</p>
+                        <p>Elementum metus facilisis ut phasellu.</p>
+                    </div>
+
+                    <a href="lookbook.html" class="view-lb">View now</a>
+                </div>
+            </div>
+
+            <div class="single-lb">
+                <img src="img/women.png" alt="women lookbook">
+
+                <div class="inner-text">
+                    <h4><span>Women's</span> lookbook</h4>
+
+                    <div class="lb-description">
+                        <p>Lorem ipsum dolor sit amet eras facilisis
+                            consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.</p>
+                        <p>Elementum metus facilisis ut phasellu.</p>
+                    </div>
+
+                    <a href="lookbook.html" class="view-lb">View now</a>
+                </div>
+            </div>
+
+            <div class="single-lb">
+                <img src="img/sillhouette.png" alt="your lookbook">
+
+                <div class="inner-text">
+                    <h4><span>Your</span> lookbook</h4>
+
+                    <div class="lb-description">
+                        <p>Lorem ipsum dolor sit amet eras facilisis
+                            consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.</p>
+                        <p>Elementum metus facilisis ut phasellu.</p>
+                    </div>
+
+                    <a href="lookbook.html" class="view-lb">View now</a>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="lil-container">
+            <div class="footer-menu">
+                <div class="footer-clmn">
+                    <p>Information</p>
+                    <ul>
+                        <li><a href="#">The brand</a></li>
+                        <li><a href="#">Local stores</a></li>
+                        <li><a href="#">Customer service</a></li>
+                        <li><a href="#">Privacy & cookies</a></li>
+                        <li><a href="#">Site</a></li>
+                    </ul>
+                </div>
+                <div class="footer-clmn">
+                    <p>Why buy from us</p>
+                    <ul>
+                        <li><a href="#">Shipping & returns</a></li>
+                        <li><a href="#">Secure shopping</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Award winning</a></li>
+                        <li><a href="#">Ethical trading</a></li>
+                    </ul>
+                </div>
+                <div class="footer-clmn">
+                    <p>Your account</p>
+                    <ul>
+                        <li><a href="#">Sign in</a></li>
+                        <li><a href="#">Register</a></li>
+                        <li><a href="#">View cart</a></li>
+                        <li><a href="#">View your lookbook</a></li>
+                        <li><a href="#">Track an order</a></li>
+                        <li><a href="#">Update Information</a></li>
+                    </ul>
+                </div>
+                <div class="footer-clmn">
+                    <p>Lookbook</p>
+                    <ul>
+                        <li><a href="#">Latest posts   </a></li>
+                        <li><a href="#">Men’s lookbook</a></li>
+                        <li><a href="#">Women’s lookbook</a></li>
+                        <li><a href="#">Lookbooks RSS feed</a></li>
+                        <li><a href="#">View your lookbook</a></li>
+                        <li><a href="#">Delete your lookbook</a></li>
+                    </ul>
+                </div>
+                <div class="footer-clmn">
+                    <p>Contact details</p>
+                    <ul>
+                        <li>Head Office: Avenue Fashion,  180-182 Regent Street, London.</li>
+                        <li>Telephone: <a href="tel:0123456789">0123-456-789</a></li>
+                        <li>Email: <a href="mailto:support@yourwebsite.com">support@yourwebsite.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-extra-block">
+                <div class="footer-banner"><span>award winner</span> fashion awards 2016 </div>
+                <div class="soc-nav">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright-block">
+            <div class="lil-container">
+                <div class="copyright">© 2016 Avenue Fashion™</div>
+                <div class="credits">
+                    <span>Design by RobbyDesigns.com</span>
+                    <span>Dev by Loremipsum.com</span>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+    
+</body>
+</html>
